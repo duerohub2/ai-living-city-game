@@ -1,5 +1,71 @@
 {
   "assets": {
+    "assets/generated/building_set.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:59c511f08a74d266298fe2882eb986cf8bc1f147061e210e8dffda51d6399ba2",
+      "shipped": true,
+      "size": 5321630,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/generated/character_sprite.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:924a0a4b6dd9728e975478153c3302e0ec3e8396fe8cc1b7ff3a0b707e6b90d0",
+      "shipped": true,
+      "size": 1900538,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/generated/city_atlas.png": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "scripts/main.gd"
+      ],
+      "regions": [],
+      "sha256": "sha256:1d0b5416b781b43460f6da2724513a5835e470000444f00797112d75bc6804eb",
+      "shipped": true,
+      "size": 8365768,
+      "source": {},
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "scripts/main.gd"
+      ],
+      "used": true,
+      "usedBy": []
+    },
     "assets/template/fonts/ManusCC0-Bold.woff2": {
       "declaredUseEvidence": [],
       "generator": {},
@@ -24,28 +90,20 @@
         "sha256": "sha256:3770ba3a502b63bc4591a5b6f332a1b2def5231973b5c14989977bf9dcd6e593"
       },
       "referenceEvidence": [
-        "assets/template/fonts/display/pong_caption.tres",
-        "assets/template/fonts/display/pong_code.tres",
-        "assets/template/fonts/display/pong_score.tres",
-        "assets/template/fonts/display/pong_title.tres",
-        "assets/template/fonts/display/pong_title_tracked.tres"
+        "assets/template/fonts/display/pong_title.tres"
       ],
       "regions": [],
       "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
-      "shipped": null,
+      "shipped": true,
       "size": 10308,
       "source": {
         "memberPath": "fonts/ManusCC0-Bold.woff2",
         "name": "ManusCC0-Bold"
       },
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [
-        "assets/template/fonts/display/pong_caption.tres",
-        "assets/template/fonts/display/pong_code.tres",
-        "assets/template/fonts/display/pong_score.tres",
-        "assets/template/fonts/display/pong_title.tres",
-        "assets/template/fonts/display/pong_title_tracked.tres"
+        "assets/template/fonts/display/pong_title.tres"
       ],
       "used": true,
       "usedBy": []
@@ -66,7 +124,7 @@
       ],
       "regions": [],
       "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
-      "shipped": null,
+      "shipped": true,
       "size": 1869368,
       "source": {
         "name": "NotoSansSC-VF.subset.woff2"
@@ -94,10 +152,10 @@
       ],
       "regions": [],
       "sha256": "sha256:eabc5c398763d783a579b6b7265181214a441a135dfd45d94cf447856c3a370e",
-      "shipped": null,
+      "shipped": true,
       "size": 46308,
       "source": {},
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [
         "assets/template/fonts/ui_bold.tres",
@@ -114,19 +172,17 @@
       "license": {},
       "origin": "unknown",
       "referenceEvidence": [
-        "assets/template/fonts/display/pong_title.tres",
-        "assets/template/fonts/display/pong_title_tracked.tres"
+        "assets/template/fonts/display/pong_title.tres"
       ],
       "regions": [],
       "sha256": "sha256:7358992690863400c1097f04d705a806e180f333c0b625d9f377a6567cc003e4",
-      "shipped": null,
+      "shipped": true,
       "size": 1620420,
       "source": {},
-      "status": "awaiting-restoration",
+      "status": "present",
       "transformations": [],
       "useEvidence": [
-        "assets/template/fonts/display/pong_title.tres",
-        "assets/template/fonts/display/pong_title_tracked.tres"
+        "assets/template/fonts/display/pong_title.tres"
       ],
       "used": true,
       "usedBy": []
@@ -134,78 +190,97 @@
   },
   "discoveries": {},
   "downloads": {},
+  "export": {
+    "coverage": "verified",
+    "hostMedia": [
+      {
+        "contentMatches": [],
+        "path": "index.png",
+        "sha256": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+        "size": 21443,
+        "sourcePaths": []
+      }
+    ],
+    "pckSha256": "sha256:03436af36199e3cf82f6acf024c09f83088840cd8fd2308f57e487738153533f",
+    "profile": "release",
+    "sourceFingerprint": "sha256:f4d7e6761c614d2268a20908261a62e97588ff530911ea2bf83537d2cfe37af3"
+  },
   "procedures": {},
   "summary": {
     "ancestry": {
       "ai": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "catalog": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "procedural": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       }
     },
     "derivatives": {
       "retained": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
     },
-    "exportedHostMedia": null,
+    "exportedHostMedia": {
+      "paths": 1,
+      "uniqueHashes": 1,
+      "unmatchedSourcePaths": 1
+    },
     "files": {
       "downloaded": 0,
-      "retained": 4,
-      "shipped": null,
-      "used": 4
+      "retained": 7,
+      "shipped": 7,
+      "used": 7
     },
     "origins": {
       "ai": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "catalog": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "derivative": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "external": {
         "retained": 1,
-        "shipped": null,
+        "shipped": 1,
         "used": 1
       },
       "procedural": {
         "retained": 0,
-        "shipped": null,
+        "shipped": 0,
         "used": 0
       },
       "template": {
         "retained": 1,
-        "shipped": null,
+        "shipped": 1,
         "used": 1
       },
       "unknown": {
-        "retained": 2,
-        "shipped": null,
-        "used": 2
+        "retained": 5,
+        "shipped": 5,
+        "used": 5
       }
     },
     "packs": {
       "discovered": 0,
       "downloaded": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
     },
     "proceduralSystems": {
@@ -214,9 +289,122 @@
     },
     "spriteRegions": {
       "retained": 0,
-      "shipped": null,
+      "shipped": 0,
       "used": 0
+    },
+    "visualCoverage": {
+      "approvedRevision": 3,
+      "blueprintId": "gbp_8a03dd041eca33bf60312107",
+      "committedRoles": 6,
+      "expectedDigest": "5445410863c329eba27d0a1e7849bb47a26032769115b07966e3ddbbb0859015",
+      "fulfilledRoles": 0,
+      "roles": [
+        {
+          "id": "karakter-pemain-penghuni",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "bangunan-destinasi-distrik",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "jalur-dan-permukaan-kota",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "lokasi-kerja-belanja-bisnis",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "hud-panel-simulasi",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        },
+        {
+          "id": "penanda-status-dan-interaksi",
+          "reasons": [
+            "unresolved"
+          ],
+          "status": "unresolved"
+        }
+      ],
+      "search": {
+        "checkedPages": 0,
+        "outcomes": 0,
+        "overflowEvents": 0,
+        "requests": 0
+      },
+      "selectedButUnusedAssets": [],
+      "staleRenderedEvidence": [],
+      "status": "incomplete",
+      "unexplainedFallbacks": [],
+      "unresolvedRoles": [
+        "karakter-pemain-penghuni",
+        "bangunan-destinasi-distrik",
+        "jalur-dan-permukaan-kota",
+        "lokasi-kerja-belanja-bisnis",
+        "hud-panel-simulasi",
+        "penanda-status-dan-interaksi"
+      ],
+      "visualQuality": "requires_agent_review"
     }
   },
-  "version": 1
+  "version": 1,
+  "visualCoverage": {
+    "attempts": {},
+    "expected": {
+      "approvedRevision": 3,
+      "blueprintId": "gbp_8a03dd041eca33bf60312107",
+      "digest": "5445410863c329eba27d0a1e7849bb47a26032769115b07966e3ddbbb0859015",
+      "roles": [
+        {
+          "description": "Gunakan sprite isometrik pixel-art 2D yang jelas untuk karakter utama Anda serta penghuni manusia dan AI, dengan variasi yang cukup untuk membedakan peran tanpa menambah kerumunan dekoratif.",
+          "id": "karakter-pemain-penghuni",
+          "label": "Karakter pemain dan penghuni kota"
+        },
+        {
+          "description": "Tampilkan bangunan isometrik yang mudah dikenali untuk Town Square, Residential, Commercial, Industrial, Civic, dan Park District agar Anda dapat memilih tujuan dan memahami fungsi lokasi dengan cepat.",
+          "id": "bangunan-destinasi-distrik",
+          "label": "Bangunan dan destinasi enam distrik"
+        },
+        {
+          "description": "Gunakan visual sederhana untuk jalan, trotoar, lahan, dan batas area agar pergerakan serta hubungan antardistrik Anda terbaca, tanpa memperluas dekorasi kota yang tidak dibutuhkan MVP.",
+          "id": "jalur-dan-permukaan-kota",
+          "label": "Jalur dan permukaan kota yang terbaca"
+        },
+        {
+          "description": "Bedakan titik kerja, toko, serta usaha yang dapat Anda kelola melalui fasad atau objek interaksi yang jelas sehingga alur kerja → upah → belanja → produksi mudah dipahami.",
+          "id": "lokasi-kerja-belanja-bisnis",
+          "label": "Lokasi interaktif untuk kerja, belanja, dan bisnis"
+        },
+        {
+          "description": "Pertahankan antarmuka yang jelas untuk wallet, ledger, inventaris, reputasi, relasi, direktori, profil, activity feed, event, audit, notifikasi, dan tombol aksi Anda, dengan tata letak desktop/mobile serta reduced motion.",
+          "id": "hud-panel-simulasi",
+          "label": "HUD dan panel simulasi responsif"
+        },
+        {
+          "description": "Gunakan penanda visual sederhana untuk tujuan terpilih, karakter yang dapat diajak berinteraksi, pekerjaan tersedia, transaksi, kebutuhan, relasi, memori episodik, event, dan catch-up offline Anda tanpa bergantung pada animasi berlebih.",
+          "id": "penanda-status-dan-interaksi",
+          "label": "Penanda status dan interaksi"
+        }
+      ]
+    },
+    "overflowEvents": 0,
+    "resolutions": {},
+    "version": 1
+  }
 }

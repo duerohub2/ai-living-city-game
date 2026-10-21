@@ -1,6 +1,10 @@
 {
   "version": 2,
   "groups": {
+    "generated": {
+      "name": "Generated",
+      "order": 20
+    },
     "template": {
       "name": "Template",
       "order": 0
@@ -8,6 +12,38 @@
   },
   "bundles": {},
   "assets": {
+    "assets/generated/building_set.png": {
+      "path": "/manus-storage/game/sha256/59c511f08a74d266298fe2882eb986cf8bc1f147061e210e8dffda51d6399ba2.png",
+      "sha256": "sha256:59c511f08a74d266298fe2882eb986cf8bc1f147061e210e8dffda51d6399ba2",
+      "size": 5321630,
+      "assetType": "image",
+      "groupId": "generated",
+      "used": true
+    },
+    "assets/generated/character_sprite.png": {
+      "path": "/manus-storage/game/sha256/924a0a4b6dd9728e975478153c3302e0ec3e8396fe8cc1b7ff3a0b707e6b90d0.png",
+      "sha256": "sha256:924a0a4b6dd9728e975478153c3302e0ec3e8396fe8cc1b7ff3a0b707e6b90d0",
+      "size": 1900538,
+      "assetType": "image",
+      "groupId": "generated",
+      "used": true
+    },
+    "assets/generated/city_atlas.png": {
+      "path": "/manus-storage/game/sha256/1d0b5416b781b43460f6da2724513a5835e470000444f00797112d75bc6804eb.png",
+      "sha256": "sha256:1d0b5416b781b43460f6da2724513a5835e470000444f00797112d75bc6804eb",
+      "size": 8365768,
+      "assetType": "image",
+      "groupId": "generated",
+      "used": true
+    },
+    "assets/template/fonts/ManusCC0-Bold.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/30/48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e.bin",
+      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "size": 10308,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
     "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
       "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-generic/2026.09.25-typography-v1/38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412/assets/template/fonts/NotoSansSC-VF.subset.woff2",
       "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
@@ -31,14 +67,6 @@
       "assetType": "font",
       "groupId": "template",
       "used": true
-    },
-    "assets/template/fonts/ManusCC0-Bold.woff2": {
-      "assetType": "font",
-      "groupId": "template",
-      "used": true,
-      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/30/48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e.bin",
-      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
-      "size": 10308
     }
   }
 }

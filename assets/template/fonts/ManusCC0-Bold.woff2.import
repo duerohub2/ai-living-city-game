@@ -2,10 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
+uid="uid://dagew7fow5pg1"
+path="res://.godot/imported/ManusCC0-Bold.woff2-cc6d8f71172fb3465f393d939da2c64f.fontdata"
 
 [deps]
 
 source_file="res://assets/template/fonts/ManusCC0-Bold.woff2"
+dest_files=["res://.godot/imported/ManusCC0-Bold.woff2-cc6d8f71172fb3465f393d939da2c64f.fontdata"]
 
 [params]
 

@@ -1,0 +1,833 @@
+{
+  "schema": "manus.game.release/v1",
+  "engineVersion": "4.7.2.stable.official.ed1daf0bf",
+  "inputs": {
+    "objectFormat": "sha1",
+    "tree": "01ace6efd9c48a7724cdb8129bd2c8e604f32efc",
+    "entries": [
+      {
+        "path": ".gitignore",
+        "type": "file",
+        "mode": "100644",
+        "object": "2326a57c6ddbd4f7124c1e8ee81a137b31fa5edf"
+      },
+      {
+        "path": ".manus-game-template.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "42bd0581577f9b83f6fad30187d1017da99cbd29"
+      },
+      {
+        "path": ".manus-starter-init.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "49725ec0771b9da8691b58e0e270e26b7f860da4"
+      },
+      {
+        "path": "README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "4de4cbeb2a8efca93b33eba6f2f043aeae0c9cde"
+      },
+      {
+        "path": "assets.lock.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "dfc784630dd7a23d50ae4b988e25a7ddba986c33"
+      },
+      {
+        "path": "assets/generated/building_set.png",
+        "type": "managed",
+        "sha256": "sha256:59c511f08a74d266298fe2882eb986cf8bc1f147061e210e8dffda51d6399ba2"
+      },
+      {
+        "path": "assets/generated/building_set.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "13c6752a08929676c990c038814b1c49c7918ab6"
+      },
+      {
+        "path": "assets/generated/character_sprite.png",
+        "type": "managed",
+        "sha256": "sha256:924a0a4b6dd9728e975478153c3302e0ec3e8396fe8cc1b7ff3a0b707e6b90d0"
+      },
+      {
+        "path": "assets/generated/character_sprite.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "fd6741e6f0b8066ab237f0cdf0e7b0e460c14b75"
+      },
+      {
+        "path": "assets/generated/city_atlas.png",
+        "type": "managed",
+        "sha256": "sha256:1d0b5416b781b43460f6da2724513a5835e470000444f00797112d75bc6804eb"
+      },
+      {
+        "path": "assets/generated/city_atlas.png.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "cba880eb8d7a35a3a47e39e30abed14eddcec0be"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-Bold.woff2",
+        "type": "managed",
+        "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-Bold.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "1b35f0d3e58a2be48bccbfe800ddc6996810e2fe"
+      },
+      {
+        "path": "assets/template/fonts/ManusCC0-CC0.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "1c9f43281b8f216c5461fe9ac729afbade7724e4"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412"
+      },
+      {
+        "path": "assets/template/fonts/NotoSansSC-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "59d898a15aecc472e39096caa9fc5bab177eaef8"
+      },
+      {
+        "path": "assets/template/fonts/Rubik-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "03af63b533942ef3bb9919f81138fde8824d4554"
+      },
+      {
+        "path": "assets/template/fonts/Rubik-VF.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:eabc5c398763d783a579b6b7265181214a441a135dfd45d94cf447856c3a370e"
+      },
+      {
+        "path": "assets/template/fonts/Rubik-VF.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "bf82a3ba7b165f403c14df865c471ffede847b51"
+      },
+      {
+        "path": "assets/template/fonts/SOURCES.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "c9e788bb5f403d358e182e2de91d729cc8ace6dd"
+      },
+      {
+        "path": "assets/template/fonts/display/ZCOOLQingKeHuangYou-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "bd3df5cf6f237a4afaea70106f8243da07cd8cd8"
+      },
+      {
+        "path": "assets/template/fonts/display/ZCOOLQingKeHuangYou-Regular.subset.woff2",
+        "type": "managed",
+        "sha256": "sha256:7358992690863400c1097f04d705a806e180f333c0b625d9f377a6567cc003e4"
+      },
+      {
+        "path": "assets/template/fonts/display/ZCOOLQingKeHuangYou-Regular.subset.woff2.import",
+        "type": "file",
+        "mode": "100644",
+        "object": "5644a44dd60047b8fc2626a330d98a152e404ccc"
+      },
+      {
+        "path": "assets/template/fonts/display/pong_caption.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "285a5584a9118b0066d0eb19a75dfd7f83fd4684"
+      },
+      {
+        "path": "assets/template/fonts/display/pong_code.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "535881b9ebaa561a53ae3d96eea1b127cccc7ca7"
+      },
+      {
+        "path": "assets/template/fonts/display/pong_score.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "e67f34798ecedd7fdb5b6fa7ef6ad63fe5b85276"
+      },
+      {
+        "path": "assets/template/fonts/display/pong_title.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "f2dfbd4a3a577eff660871332f3c9f52a5f08697"
+      },
+      {
+        "path": "assets/template/fonts/display/pong_title_tracked.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "8b82f09485ea59f1eeae39916000aa07ad1baeb8"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "db38c06205f00ba3243a9b81e862126737f8488f"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_medium.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "b65d0536025f84a1d7fe41d3f80b4addb362bad0"
+      },
+      {
+        "path": "assets/template/fonts/noto_sans_sc_regular.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "676729b9ea8a1e86d29e1132bc997560adf1c1c6"
+      },
+      {
+        "path": "assets/template/fonts/runtime-cjk.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "2abefff57b45b0b85445c2f3c4887c036a5fd2e6"
+      },
+      {
+        "path": "assets/template/fonts/ui_bold.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "7ce54be5b7e75b25b08f4cfe624a42b1b4f5c5b7"
+      },
+      {
+        "path": "assets/template/fonts/ui_medium.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "6bab72e7dc3b019d160ba54ffc4570af60472e9d"
+      },
+      {
+        "path": "assets/template/fonts/ui_regular.tres",
+        "type": "file",
+        "mode": "100644",
+        "object": "884ecb80d0b73765410b1d8c9deab555628015c4"
+      },
+      {
+        "path": "autoload/audio_director.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "22b8a7675e98c351636b43c8b240e4fab97ed0c0"
+      },
+      {
+        "path": "autoload/audio_director.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "daccd7d2a5cc119de47801236a27dc762ebde740"
+      },
+      {
+        "path": "autoload/i18n.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "3d681a34e4b3771b2d3a6e01cfb7ef8d72c1e101"
+      },
+      {
+        "path": "autoload/i18n.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "6ac6dbd27bd0a1ec86c9bc658f6171aa00243aaa"
+      },
+      {
+        "path": "autoload/manus_font_theme.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "8bfdcd66babd1257b0aa97f689ec0ff81fc15fb2"
+      },
+      {
+        "path": "autoload/manus_font_theme.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "e1c5d58dc854873e3c0a11cd0e92f8e77ca5aa08"
+      },
+      {
+        "path": "autoload/save_store.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "2ac4e760f60fbc4b54af9e65ec9ef0ba72df3fbe"
+      },
+      {
+        "path": "autoload/save_store.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "297aee052ef4b0279878f61bd2aeed739f79e6b4"
+      },
+      {
+        "path": "autoload/tuning_store.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "16c5be2b7ecb733bd9b1873a5b83972659a613b1"
+      },
+      {
+        "path": "autoload/tuning_store.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "4c8a1ce57d226726c7e179ceca63aa66b18e0aa3"
+      },
+      {
+        "path": "config/tuning.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "a6f1296af1d78194b314128441adee5ba4d4e728"
+      },
+      {
+        "path": "docs/game-multiplayer.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "c08672b6afbec2b4a77655b2413a8ae3431a3a8a"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/DESIGN.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "777d03b7bf50c866468ad007e6b84765119b6f85"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/LICENSE",
+        "type": "file",
+        "mode": "100644",
+        "object": "0e259d42c996742e9e3cba14c677129b2c1b6311"
+      },
+      {
+        "path": "docs/provenance/fonts/manus-cc0-ui-sans/README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "174a74cb1c84a955706817734449a5e7becd2a4b"
+      },
+      {
+        "path": "docs/provenance/fonts/replacement-fonts.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "f9cad89d2dc19292dd8ceacc6254ed8fd6d058be"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/Audiowide-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "19bb4adffab57778a892f98e9552441208896226"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/RussoOne-OFL.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "7a9a50091e7b1a84aa9253c4920a3d339cc00478"
+      },
+      {
+        "path": "docs/provenance/historical-font-licenses/index.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "0302208857a528e6f05d517e2bd9335c477c9b99"
+      },
+      {
+        "path": "docs/render-deployment.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "c90fc95351ef95bb3b96ee9e51fd8e31824e817f"
+      },
+      {
+        "path": "export_presets.cfg",
+        "type": "file",
+        "mode": "100644",
+        "object": "b8fcb8e01299220f481bdccfb74622ce2871d663"
+      },
+      {
+        "path": "localization/en.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "9a13f0e5bbd443f01e352e34b90b428c5fd90696"
+      },
+      {
+        "path": "localization/zh-CN.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "26cfbd054c392cd609818ac67258caedef5a69b3"
+      },
+      {
+        "path": "multiplayer/config.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "8f11da3efaa3d5884a08baca97577ba7e723561c"
+      },
+      {
+        "path": "package.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "58b5954f31cb3bb03c8f0b570346701b5068129d"
+      },
+      {
+        "path": "project.godot",
+        "type": "file",
+        "mode": "100644",
+        "object": "ea5b63fc84e7a059858b2d79d7e814fb2fa74d28"
+      },
+      {
+        "path": "scenes/main.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "b38d830360e230443976bda00eada736b88769c2"
+      },
+      {
+        "path": "scripts/game/local_paddle.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "68fad08d39bbf4c57a50ccabc509197c8f078ea1"
+      },
+      {
+        "path": "scripts/game/local_paddle.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "c2a4c0b59561d8be67f1d07189aac2c1e243c24d"
+      },
+      {
+        "path": "scripts/game/pong_board.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4c7540ef6ed7d64690dc5d1984a76eb3e5e2b28f"
+      },
+      {
+        "path": "scripts/game/pong_board.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "1966ec474c34a97a13b38ecdeccad891aca74ea7"
+      },
+      {
+        "path": "scripts/main.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "e7c45389f8fcb10dab75b5852c5d395eb8592d78"
+      },
+      {
+        "path": "scripts/main.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "61efe980059fde8c40bbb653bfd26d98ee4ee59b"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_backend.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5b11ca0a310976b075d441b47bb9f5bbf970a6af"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_backend.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "01efe47ac10de0019e348b7012a1d1311c9b8078"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_player.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4d23223998288ffdc9391dde1206b13dfe89b765"
+      },
+      {
+        "path": "scripts/manus/browser_bgm_player.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "3da2e1f8cabf8ad1c3a10a617c96b3a75b4912ce"
+      },
+      {
+        "path": "scripts/manus/game_fonts.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "cff16db79268ab9ca9abe67686317cebfc607a09"
+      },
+      {
+        "path": "scripts/manus/game_fonts.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "fe5ae7e0cdab50706d50155912265aca88a2998b"
+      },
+      {
+        "path": "scripts/manus/open_source_licenses.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "f96b57b13634687de25c403cb5e9cf7fc6c7abc4"
+      },
+      {
+        "path": "scripts/manus/open_source_licenses.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "477ae297d36b74cbb03003da6ffae97f149aa1cc"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_adapter.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "f30406ac3363211a3d2eb20dc7fb07bcff3539a3"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_adapter.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "133c3456fc85e3d8ad5ef1627ba861a2bb29767c"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_transport.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "845eedb5cfe41711f0f4b14f093159b45c825ecc"
+      },
+      {
+        "path": "scripts/manus/preview/tuning_transport.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "15dac2665fc968c0cba4fa84b57c767d7c32075e"
+      },
+      {
+        "path": "scripts/manus/procedural_sfx.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5bac89f3f21e5b2fe574b0896ad0f90f1792247a"
+      },
+      {
+        "path": "scripts/manus/procedural_sfx.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "cb0c9f4b24cf78917c1192ddd4e15a60b1d84921"
+      },
+      {
+        "path": "scripts/manus/runtime-command.cjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "39fd46daecc470eaf3731632a1969e0f382144ad"
+      },
+      {
+        "path": "scripts/net/connection.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "dbe1fb8ac704432a911949e86c3dd2096aeb76a7"
+      },
+      {
+        "path": "scripts/net/connection.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "8357c2419b32788fcc6e37ad7c8a6e0e8ef04e62"
+      },
+      {
+        "path": "scripts/net/protocol.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "a09a0e81adab49d846582b83a136bcc81797cf4f"
+      },
+      {
+        "path": "scripts/net/protocol.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "82e6dafd7655385d4d0db4d0fcc426fe67266f8d"
+      },
+      {
+        "path": "scripts/ui/attract_court.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "704320219c814a7625b888f617dea15cf9e7614a"
+      },
+      {
+        "path": "scripts/ui/attract_court.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "8584c363a77cebb2feec5885e7471ac4d0524936"
+      },
+      {
+        "path": "scripts/ui/neon_text.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "2401b601c882f62e0d873915bf9d89bf4df21b2c"
+      },
+      {
+        "path": "scripts/ui/neon_text.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "4e9fa9e8a15e3e7902ea7b3fddfe6f6e132578d9"
+      },
+      {
+        "path": "scripts/ui/scoreboard.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "3474413f00956ae897e5ac7f83e492c6946f43e1"
+      },
+      {
+        "path": "scripts/ui/scoreboard.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "7754bbbb83f6e7a07f9f96c59b7fc10f13b7df49"
+      },
+      {
+        "path": "server/README.md",
+        "type": "file",
+        "mode": "100644",
+        "object": "72403d91b0300aa007d7d247068d87ccd20273c5"
+      },
+      {
+        "path": "server/authoritative_server.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "5578cdb7b0f608c6e13cf49d0c5b685f2e371808"
+      },
+      {
+        "path": "server/city_server.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "12dc0caa4fddd66dcbad3187c910e64797d8e096"
+      },
+      {
+        "path": "server/e2e_clients.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "ab869c485995be594ee93f5ae86afe71cbf4ea76"
+      },
+      {
+        "path": "server/package.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "5693ffa99e9d681c889bfbb8888fa8412f689e74"
+      },
+      {
+        "path": "server/pnpm-lock.yaml",
+        "type": "file",
+        "mode": "100644",
+        "object": "4579892c7d7aba396e45a92964bef5ccc4d767c5"
+      },
+      {
+        "path": "server/pong.service.example",
+        "type": "file",
+        "mode": "100644",
+        "object": "5ed14961711ecb48bcf54784b9cdfbcf6d831099"
+      },
+      {
+        "path": "server/server.test.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "c2b2516beb0e759de489bbcc4406c8047c95f6cc"
+      },
+      {
+        "path": "shaders/crt_overlay.gdshader",
+        "type": "file",
+        "mode": "100644",
+        "object": "831020a346824a657aad0ffb3de7d0d415429ee1"
+      },
+      {
+        "path": "shaders/crt_overlay.gdshader.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "f28506dbc2482b5d65b281958fc3c5ac30192a33"
+      },
+      {
+        "path": "template-provenance.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "efff7fa2a5c0b0080b46e4bf33964eba3f7251b7"
+      },
+      {
+        "path": "template.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "d329efee41639c1cb269957fbb52daad662463c9"
+      },
+      {
+        "path": "test/browser_bgm_regression.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "95d198a0a50af27e407caf2230a8fb1a04dda363"
+      },
+      {
+        "path": "test/browser_bgm_regression.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "d1811ee7768dd315c8b64555776e5df674cae642"
+      },
+      {
+        "path": "test/native_network.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "3b9fb99b83cd61015b4b15ab7cac7dd9797d2e46"
+      },
+      {
+        "path": "test/network_client.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "4a0d86b760c23dc5ae453c7960b9215d4d7ab163"
+      },
+      {
+        "path": "test/network_client.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "7427603c02f3243eb6274d9c9ec73c0267dda2fa"
+      },
+      {
+        "path": "test/test_suite.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "22029aadc3fa371172214ebd60533af467d5048f"
+      },
+      {
+        "path": "test/test_suite.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "4a6c82a3246f38fa6cc8b6d0af94710baa8dec1b"
+      },
+      {
+        "path": "test/test_suite.tscn",
+        "type": "file",
+        "mode": "100644",
+        "object": "500f4f82a6fb1aa2659603bcaa05bc8f1ffcfc34"
+      },
+      {
+        "path": "test/tweak_controls.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "5f44188e6a7a6d8316467e42e591c3f83b0cbacd"
+      },
+      {
+        "path": "test/tweak_controls.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "c0c8e3e237d6531378541d7bf13145778ec48769"
+      },
+      {
+        "path": "tools/audit_resources.mjs",
+        "type": "file",
+        "mode": "100644",
+        "object": "051b533223a6d5d6369258a1d32720026e6b856a"
+      },
+      {
+        "path": "tools/build_cjk_font.py",
+        "type": "file",
+        "mode": "100644",
+        "object": "dd2a5a944c7de770b7efde8bc2e0010068dc9eda"
+      },
+      {
+        "path": "tools/capture_native.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "878c262b177a6607a84e67166de5d4bc359d0f9a"
+      },
+      {
+        "path": "tools/capture_native.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "68d74a30443d1ea9763ac0f3eab4c9b41cd0fc24"
+      },
+      {
+        "path": "tools/game-runtime-font-codepoints.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "d58015f2c8148087b62a53d7893da2591ffa5cac"
+      },
+      {
+        "path": "tools/game-runtime-font.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "b592ef10ae9fc7cfc2e5a8b3836dbb1f580515ce"
+      },
+      {
+        "path": "tools/game-runtime-font.requirements.txt",
+        "type": "file",
+        "mode": "100644",
+        "object": "0810aab0e2ee9e8c03cc20d7e738a2b180ffa1ca"
+      },
+      {
+        "path": "tools/install_cjk_font.py",
+        "type": "file",
+        "mode": "100644",
+        "object": "28de478c5dd3ba4e09d7f3241957772cf4c3f1a3"
+      },
+      {
+        "path": "tools/verify.sh",
+        "type": "file",
+        "mode": "100755",
+        "object": "0180888158357240225e42418bd5339d54a6ca07"
+      },
+      {
+        "path": "tools/verify_clean_scaffold.sh",
+        "type": "file",
+        "mode": "100755",
+        "object": "2aa70e5c3e640cff73018ff7af364ea85dc6c2c3"
+      },
+      {
+        "path": "tools/verify_exported_pack.gd",
+        "type": "file",
+        "mode": "100644",
+        "object": "eb29798dd49db8cc3672322c9ab72c71fd689955"
+      },
+      {
+        "path": "tools/verify_exported_pack.gd.uid",
+        "type": "file",
+        "mode": "100644",
+        "object": "da1eb24aff4da704f73c864031593b0d247e6f96"
+      },
+      {
+        "path": "web/loader-cjk.json",
+        "type": "file",
+        "mode": "100644",
+        "object": "8c35c5633c7b6170774f7a8af6b36ebfe63763dd"
+      },
+      {
+        "path": "web/loading.html",
+        "type": "file",
+        "mode": "100644",
+        "object": "d89faf5c93fe402c8948cd7a6975d1d06221e222"
+      }
+    ]
+  },
+  "build": {
+    "snapshotId": "sha256:9c4ed7e93fe9c7dc054ed91a80dbdf8ec5baf11a89b85361472a9aa6162e2a97",
+    "toolchain": {
+      "engineVersion": "4.7.2.stable.official.ed1daf0bf",
+      "engineDigest": "sha256:8d106cbe6144c2dc7e881d61d2429c1a8a76e6b22ef48bd5e48dcf934953f71e",
+      "templates": {
+        "debug": "sha256:08962aefef811b603541d7951ac67ef00413aad2d978855183c28adee98f626a",
+        "release": "sha256:d3ee2f08cef0cf3cf6678a6355a92a8db48ccdd35cbd2e8bfd5f0e8a0b4032a0"
+      },
+      "runtimeDigest": "sha256:cb163cdbb239dd0d987522238f971a690d94e3c02dd045ea9f2f630597bda060"
+    },
+    "profile": "release",
+    "export": {
+      "profile": "release",
+      "snapshotId": "sha256:9c4ed7e93fe9c7dc054ed91a80dbdf8ec5baf11a89b85361472a9aa6162e2a97",
+      "files": {
+        "THIRD_PARTY_NOTICES.txt": "sha256:f8ee008a5d54e8ea782cd9093c9e85a27639e4666031ba537617a656ce23bbfe",
+        "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+        "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+        "index.html": "sha256:128a5025f4990573984acbb0723491c87a796706ce0226537d72b69cb4e40ce9",
+        "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
+        "index.pck": "sha256:03436af36199e3cf82f6acf024c09f83088840cd8fd2308f57e487738153533f",
+        "index.png": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+        "index.wasm": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+        "open-source-licenses.html": "sha256:5981d6d78e41950948435e31cb733912270758f5a516406d4d0be951e060c687"
+      },
+      "digest": "sha256:37afa34171fd0fa3c9350e85b1fc4abdac31d3920e363e76a267cb53d12875cf"
+    }
+  },
+  "artifacts": {
+    "wasm": {
+      "path": "/manus-storage/game/sha256/fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0.wasm",
+      "sha256": "sha256:fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "pck": {
+      "path": "/manus-storage/game/sha256/03436af36199e3cf82f6acf024c09f83088840cd8fd2308f57e487738153533f.pck",
+      "sha256": "sha256:03436af36199e3cf82f6acf024c09f83088840cd8fd2308f57e487738153533f"
+    }
+  },
+  "files": {
+    "THIRD_PARTY_NOTICES.txt": "sha256:f8ee008a5d54e8ea782cd9093c9e85a27639e4666031ba537617a656ce23bbfe",
+    "game-sharing.json": "sha256:d68a4afb4db437c6159115b39d521d6d749fbcf311942f6dce9f536e10c1f7e8",
+    "index.audio.position.worklet.js": "sha256:be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.audio.worklet.js": "sha256:5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.html": "sha256:231cdc17b5ba530cda1bbeca8f5486c35eb60f787314a2439ed4ae6f77cabb26",
+    "index.js": "sha256:cb28c2d8ffd8981888823f1b6d98cdec4e3e11adf209ad556c22878e6d51c63a",
+    "index.png": "sha256:3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "multiplayer/bootstrap.json": "sha256:506a18e0166a75ea0fecadd2129cb7060d2913957572354b3af8ef8aae36c488",
+    "open-source-licenses.html": "sha256:5981d6d78e41950948435e31cb733912270758f5a516406d4d0be951e060c687"
+  }
+}

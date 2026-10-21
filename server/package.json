@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node authoritative_server.mjs",
+    "start:city": "node city_server.mjs",
     "test:e2e": "node e2e_clients.mjs",
     "test": "node --test server.test.mjs"
   },

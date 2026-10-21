@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Multiplayer Paddle Game"
-config/description="Two-player server-authoritative paddle game with reconnect and spectators."
+config/name="AI Living City"
+config/description="Persistent isometric social city simulation prototype with bounded AI routines, local economy and offline catch-up."
 config/version="1.0.0"
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
@@ -35,7 +35,7 @@ window/size/viewport_height=720
 window/size/window_width_override=1280
 window/size/window_height_override=720
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep"
+window/stretch/aspect="expand"
 
 [input]
 
@@ -56,3 +56,6 @@ move_down={
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+
+[editor]
+import/use_multiple_threads=false
