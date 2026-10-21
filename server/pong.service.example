@@ -1,0 +1,17 @@
+# Replace executable and working directory after inspecting the selected computer.
+[Unit]
+Description=Pong Online game service
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/services/pong-online/server
+ExecStart=/usr/bin/node authoritative_server.mjs
+Environment=HOST=127.0.0.1
+Environment=PORT=8787
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target

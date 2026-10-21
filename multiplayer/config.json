@@ -1,0 +1,5 @@
+{
+  "build": "pong-online-v2",
+  "signalingUrl": "",
+  "iceTransportPolicy": "all"
+}

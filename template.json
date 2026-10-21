@@ -1,0 +1,11 @@
+{
+  "id": "game-generic-multiplayer",
+  "kind": "game",
+  "game_genre": "generic-multiplayer",
+  "status": "ready",
+  "name": "Multiplayer Paddle Game",
+  "description": "Generic online multiplayer foundation: Godot client and standalone Node WebSocket server with rooms, spectators and seat recovery. Includes a playable paddle-game example to adapt to other games; deploy the bundled server separately.",
+  "capabilities": [
+    "static"
+  ]
+}

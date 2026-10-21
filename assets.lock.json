@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "groups": {
+    "template": {
+      "name": "Template",
+      "order": 0
+    }
+  },
+  "bundles": {},
+  "assets": {
+    "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-generic/2026.09.25-typography-v1/38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412/assets/template/fonts/NotoSansSC-VF.subset.woff2",
+      "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
+      "size": 1869368,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/Rubik-VF.subset.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-generic-multiplayer/2026.09.25-typography-v1/eabc5c398763d783a579b6b7265181214a441a135dfd45d94cf447856c3a370e/assets/template/fonts/Rubik-VF.subset.woff2",
+      "sha256": "sha256:eabc5c398763d783a579b6b7265181214a441a135dfd45d94cf447856c3a370e",
+      "size": 46308,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/display/ZCOOLQingKeHuangYou-Regular.subset.woff2": {
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/25/game-template/game-generic-multiplayer/2026.09.25-typography-v1/7358992690863400c1097f04d705a806e180f333c0b625d9f377a6567cc003e4/assets/template/fonts/display/ZCOOLQingKeHuangYou-Regular.subset.woff2",
+      "sha256": "sha256:7358992690863400c1097f04d705a806e180f333c0b625d9f377a6567cc003e4",
+      "size": 1620420,
+      "assetType": "font",
+      "groupId": "template",
+      "used": true
+    },
+    "assets/template/fonts/ManusCC0-Bold.woff2": {
+      "assetType": "font",
+      "groupId": "template",
+      "used": true,
+      "path": "https://d1oupeiobkpcny.cloudfront.net/assets/dashboard/materials/2026/09/30/48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e.bin",
+      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "size": 10308
+    }
+  }
+}

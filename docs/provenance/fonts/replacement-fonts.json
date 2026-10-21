@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "date": "2026-09-30",
+  "replaced": [
+    "assets/template/fonts/display/Audiowide-Regular.subset.woff2",
+    "assets/template/fonts/display/RussoOne-Regular.subset.woff2"
+  ],
+  "fonts": [
+    {
+      "path": "assets/template/fonts/ManusCC0-Bold.woff2",
+      "sha256": "48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "size": 10308,
+      "version": "1.100",
+      "license": "CC0-1.0",
+      "fullUnsubsettedFile": true,
+      "archiveSha256": "797c922ad51121264b2a28d0bbca513f17b79680ac1fb3f2b98243d8cfceb688",
+      "authorEvidence": "docs/provenance/fonts/manus-cc0-ui-sans/README.md",
+      "licenseNotice": "assets/template/fonts/ManusCC0-CC0.txt"
+    }
+  ],
+  "scope": "Unmodified full ManusCC0 output fonts; existing Noto and other OFL fallbacks retain their own licenses. Current locale coverage verified; no claim of identical appearance or all-Unicode coverage."
+}

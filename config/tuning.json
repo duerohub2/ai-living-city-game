@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "settings": [
+    {
+      "id": "ui.reduced_motion",
+      "category": "UI",
+      "type": "boolean",
+      "default": false,
+      "unit_key": "unit.none",
+      "apply_mode": "LIVE",
+      "integrity": "COSMETIC",
+      "label_key": "Reduced motion",
+      "description_key": "Disable nonessential score and connection transitions.",
+      "tags": [
+        "motion",
+        "accessibility"
+      ]
+    },
+    {
+      "id": "audio.master.volume_db",
+      "category": "Audio",
+      "type": "number",
+      "default": 0,
+      "min": -30,
+      "max": 0,
+      "step": 1,
+      "decimals": 0,
+      "unit_key": "unit.db",
+      "apply_mode": "LIVE",
+      "integrity": "COSMETIC",
+      "label_key": "Master volume",
+      "description_key": "Overall output level.",
+      "tags": [
+        "audio",
+        "master"
+      ]
+    },
+    {
+      "id": "audio.master.muted",
+      "category": "Audio",
+      "type": "boolean",
+      "default": false,
+      "unit_key": "unit.none",
+      "apply_mode": "LIVE",
+      "integrity": "COSMETIC",
+      "label_key": "Mute",
+      "description_key": "Mute all game audio.",
+      "tags": [
+        "audio",
+        "mute"
+      ]
+    },
+    {
+      "id": "audio.music.volume_db",
+      "category": "Audio",
+      "type": "number",
+      "default": -18,
+      "min": -40,
+      "max": 0,
+      "step": 1,
+      "decimals": 0,
+      "unit_key": "unit.db",
+      "apply_mode": "LIVE",
+      "integrity": "COSMETIC",
+      "label_key": "Music volume",
+      "description_key": "Minimal pulse loop level.",
+      "tags": [
+        "audio",
+        "music"
+      ]
+    },
+    {
+      "id": "audio.sfx.volume_db",
+      "category": "Audio",
+      "type": "number",
+      "default": -5,
+      "min": -40,
+      "max": 0,
+      "step": 1,
+      "decimals": 0,
+      "unit_key": "unit.db",
+      "apply_mode": "LIVE",
+      "integrity": "COSMETIC",
+      "label_key": "SFX volume",
+      "description_key": "Paddle, wall and score cue level.",
+      "tags": [
+        "audio",
+        "effects"
+      ]
+    },
+    {
+      "id": "audio.ui.volume_db",
+      "category": "Audio",
+      "type": "number",
+      "default": -7,
+      "min": -40,
+      "max": 0,
+      "step": 1,
+      "decimals": 0,
+      "unit_key": "unit.db",
+      "apply_mode": "LIVE",
+      "integrity": "COSMETIC",
+      "label_key": "Connection cue volume",
+      "description_key": "Connection and disconnect cue level.",
+      "tags": [
+        "audio",
+        "connection"
+      ]
+    },
+    {
+      "id": "presentation.smoothing",
+      "type": "number",
+      "category": "UI",
+      "default": 24,
+      "min": 4,
+      "max": 60,
+      "step": 1,
+      "decimals": 0,
+      "apply_mode": "LIVE",
+      "integrity": "COSMETIC",
+      "label_key": "tweak.smoothing",
+      "description_key": "tweak.description",
+      "unit_key": "tweak.seconds"
+    }
+  ]
+}

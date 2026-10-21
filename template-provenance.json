@@ -1,0 +1,127 @@
+{
+  "starterId": "game-generic-multiplayer-v38",
+  "engineVersion": "4.7.2",
+  "sourceRepository": "user-supplied-pong-project",
+  "sourceCommit": "bb6830af29dcb2caa94feb8dd8e9b47f0ad8ce91",
+  "sourcePath": "pong-online-e2e-0914",
+  "sourceGitBlobs": {},
+  "adaptations": [
+    "Recovered original Generic-derived Pong gameplay, simulation, procedural audio and test sources",
+    "Generic localization, font delivery, tuning and export contracts restored",
+    "Public endpoint uses Addon multiplayer bootstrap; no deployment-specific host or device identity",
+    "Hardened protocol, seat ownership, reconnect and bounded service lifecycle"
+  ],
+  "sourceArchive": "pong-online-e2e-0914-bb6830a-source.zip",
+  "sourceSha256": {
+    "scenes/main.tscn": "2c2f3bb1b1a610ad695f4a05dd6012033ce6dc0c6a158824d4d7db1ff64ad5f4",
+    "server/pnpm-lock.yaml": "0581afafc7e17e6dba51d572651040f1944d143df5757f2d74389429f8333ee4",
+    "server/pong-online-e2e-0914.service": "6b7d5b4a0e25f7cf7b33fe66722a5184dc9a320bf41d6e5cb93707555c854d24",
+    "server/package.json": "a48f4e8ed607d2e6367b9bf1eec4ab82f5b6da3676e4869c5d42a58354f1410c",
+    "server/e2e_clients.mjs": "8bd274fb35d0237e0d3e2ba9cef037a807aaf367361cfe1c9386865967c9ef4e",
+    "server/authoritative_server.mjs": "610065b2e9a8150d1ae1da68ac2428b613744f0b6ae4974c2375b02fabd096bb",
+    "scripts/main.gd": "4b17ce84f60dc67fce40a1bfcea2822808249259c398211f1eff13b596a6ded3",
+    "scripts/main.gd.uid": "aec5eec5c93acebec914a186b8a02aeea46038efbae3ae0b278475025d1de13b",
+    "scripts/net/protocol.gd.uid": "fe11f8b8c67abb6a6b483b3ca5d9b964f5dce2dd777f59bc55373bb3b04fdaab",
+    "scripts/net/protocol.gd": "8e11e07714f11dab95c611c96102eab5ec1d04b0e941958f9fa51ade74cd970a",
+    "scripts/game/pong_board.gd": "6e70d138058c2245ff8e7a631f81019903847edd6c4d4b9489458ff6924a5c39",
+    "scripts/game/pong_board.gd.uid": "e00ae3d97fb99fd89035b6064a2a4d70d29c6b8e1a8992cbb3de630d24ac1354",
+    "autoload/tuning_store.gd.uid": "b2f0fdb38316fe788df976aca23da6bd8d0444946ea49be6257f20f8160691f5",
+    "autoload/audio_director.gd.uid": "44d11748a40d2efcd0d0a9ef99c475af618e99b6804b0b528685e800d34ade5b",
+    "autoload/audio_director.gd": "4c7bcb1b2eee3c08f544678be8196a61798836de8c47981206450c905f9f64ae",
+    "autoload/tuning_store.gd": "e3be8e9f47e321252820ce65ac6c3e285dd04d32dcb97d1a51d108d572e211ca"
+  },
+  "parentStarterId": "game-generic-multiplayer-v37",
+  "maintenanceRepository": "manus-ai/manus-addon-webdev",
+  "fontProvenance": {
+    "family": "ManusCC0 + Rubik + ZCOOL QingKe HuangYou + Noto Sans SC",
+    "files": [
+      "ManusCC0-Bold.woff2",
+      "NotoSansSC-VF.subset.woff2",
+      "Rubik-VF.subset.woff2",
+      "ZCOOLQingKeHuangYou-Regular.subset.woff2"
+    ],
+    "license": "CC0-1.0 for ManusCC0 output fonts; OFL-1.1 for the other bundled families.",
+    "licenseNotices": [
+      "assets/template/fonts/ManusCC0-CC0.txt",
+      "assets/template/fonts/NotoSansSC-OFL.txt",
+      "assets/template/fonts/Rubik-OFL.txt",
+      "assets/template/fonts/display/ZCOOLQingKeHuangYou-OFL.txt"
+    ],
+    "replacementEvidence": "docs/provenance/fonts/replacement-fonts.json",
+    "historicalEvidence": "docs/provenance/historical-font-licenses/index.json"
+  },
+  "localMaintenance": [
+    {
+      "change": "Embed the approved ManusCC0 font pack in the Web loader and keep it as the primary CSS family.",
+      "fontSource": "runtime-src/game-dev/loading-shell.html",
+      "license": "assets/template/fonts/ManusCC0-LICENSE.txt"
+    },
+    {
+      "change": "Owned-paddle anticipation with bounded correction, v2 input acknowledgements, latency integration tests and clean-import font initialization."
+    },
+    {
+      "change": "Preserve upstream v25 global ManusFontTheme autoload and current common guidance while integrating reviewed local anticipation and its global-font regression.",
+      "sourceCommit": "282e0a7d69805a1d2d383c44a845445abb521211",
+      "sourceStarterId": "game-generic-multiplayer-v23",
+      "resolution": "Upstream independently allocated v23; preserve that upstream frozen identity and apply this PR implementation in new v26."
+    },
+    {
+      "date": "2026-09-30",
+      "reason": "Approved template IP remediation: neutral branding, medical emblem replacement, reviewed full CC0 fonts and recovered provenance as applicable. See docs/audits/2026-09-30-game-template-ip-remediation in the maintenance repository for scope and remaining evidence gaps.",
+      "parentStarterId": "game-generic-multiplayer-v35"
+    },
+    {
+      "date": "2026-09-30",
+      "reason": "Align the exported-pack verification identity assertion with the approved Multiplayer Paddle Game display title; preserve gameplay, networking, protocol and saved-data identities.",
+      "parentStarterId": "game-generic-multiplayer-v36",
+      "files": [
+        "tools/verify_exported_pack.gd"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "parentStarterId": "game-generic-multiplayer-v37",
+      "reason": "Correct active font provenance to match assets.lock.json and retain replaced font license notices and superseded metadata in explicitly historical evidence outside the runtime font directories. Remove inherited custom native saved-data directory overrides so newly renamed projects use Godot's project-name-based default; historical projects retain their frozen settings.",
+      "assetLock": "Unchanged from parent revision.",
+      "historicalFontEvidence": "docs/provenance/historical-font-licenses/index.json"
+    }
+  ],
+  "typographyMaintenance": {
+    "primaryFamily": "ManusCC0 display faces with Rubik body text.",
+    "languageFallbacks": "ZCOOL QingKe HuangYou display fallback, then Noto Sans SC; system fallback disabled.",
+    "bodyComposites": "assets/template/fonts/ui_{regular,medium,bold}.tres"
+  },
+  "loaderTypography": {
+    "primary": "Embedded Noto Sans SC subset (OFL-1.1)"
+  },
+  "boundedFontPromotion": {
+    "sourceCommit": "9fca78bf8701fa0261f4fec4189d4eddecbd56a3",
+    "targetCommit": "2fc74b0251927e24c078ff8f40a7a82b9e920e80",
+    "parentStarterId": "game-generic-multiplayer-v9",
+    "runtimeFontSha256": "150544e032d5a266d214799dbab5c6b6e9bad78645bdeaff5d11aba8cae43f7c"
+  },
+  "maintenanceChanges": [
+    "Documentation-only successor: require unused-asset housekeeping before the final checkpoint or publication; inherited gameplay, scenes and media remain unchanged.",
+    "Documentation-only successor: route unresolved new-game asset-production choices through Game Blueprint; preserve the tool-unavailable and existing-game fallback, inherited gameplay, scenes, assets, fonts and locks.",
+    "Route browser BGM through the canonical independent Web Audio renderer with one-time decoded buffer caching and Godot native fallback; preserve existing soundtrack bytes, gain, mute, pause and transition behavior."
+  ],
+  "cc0FontPromotion": {
+    "sourceCommit": "ae982571d022eae71c60b327e38def7542f26919",
+    "sourceStarterId": null,
+    "targetCommit": "1e1ae425245e3ab2fd36dd42066c0f2e05bdd776",
+    "parentStarterId": "game-generic-multiplayer-v15",
+    "runtimeFontSha256": "0a4981b817d7fb556dd8cd80f278483f1849017a312ca965e027d8e0e066968c"
+  },
+  "parentFileManifest": "gameStarterFiles.game-generic-multiplayer-v27.json",
+  "parentFileManifestSha256": "bfbdd878e2721faa732ba023ca16b80cab75616106288c07b8ec37a91de1eb5f",
+  "browserBgmMaintenance": {
+    "sourceRepository": "manus-ai/manus-addon-webdev",
+    "helperSources": [
+      "runtime-src/game-dev/godot/browser_bgm_backend.gd",
+      "runtime-src/game-dev/godot/browser_bgm_player.gd"
+    ],
+    "soundtrack": "Unchanged from parent revision",
+    "nativeFallback": "Godot AudioStreamPlayer",
+    "browserRenderer": "Web Audio AudioBufferSourceNode with cached decoded AudioBuffer"
+  }
+}

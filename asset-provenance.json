@@ -1,0 +1,222 @@
+{
+  "assets": {
+    "assets/template/fonts/ManusCC0-Bold.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "attributionRequired": false,
+        "commercialUseAllowed": true,
+        "copyrightNoticeRequired": false,
+        "editableProjectDistributionAllowed": true,
+        "id": "CC0-1.0",
+        "licenseNoticeRequired": false,
+        "modificationAllowed": true,
+        "modificationNoticeRequired": false,
+        "notice": "assets/template/fonts/ManusCC0-CC0.txt",
+        "redistributionAllowed": true,
+        "reusableTemplateDistributionAllowed": true,
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "origin": "external",
+      "receipt": {
+        "path": "docs/provenance/fonts/replacement-fonts.json",
+        "sha256": "sha256:3770ba3a502b63bc4591a5b6f332a1b2def5231973b5c14989977bf9dcd6e593"
+      },
+      "referenceEvidence": [
+        "assets/template/fonts/display/pong_caption.tres",
+        "assets/template/fonts/display/pong_code.tres",
+        "assets/template/fonts/display/pong_score.tres",
+        "assets/template/fonts/display/pong_title.tres",
+        "assets/template/fonts/display/pong_title_tracked.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:48c1f3452238f29eb1fe4b8bddfe8fd4045045a5c26657307b8862993488148e",
+      "shipped": null,
+      "size": 10308,
+      "source": {
+        "memberPath": "fonts/ManusCC0-Bold.woff2",
+        "name": "ManusCC0-Bold"
+      },
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/pong_caption.tres",
+        "assets/template/fonts/display/pong_code.tres",
+        "assets/template/fonts/display/pong_score.tres",
+        "assets/template/fonts/display/pong_title.tres",
+        "assets/template/fonts/display/pong_title_tracked.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/NotoSansSC-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {
+        "id": "OFL-1.1",
+        "url": "https://openfontlicense.org/open-font-license-official-text/"
+      },
+      "origin": "template",
+      "referenceEvidence": [
+        "assets/template/fonts/noto_sans_sc_bold.tres",
+        "assets/template/fonts/noto_sans_sc_medium.tres",
+        "assets/template/fonts/noto_sans_sc_regular.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412",
+      "shipped": null,
+      "size": 1869368,
+      "source": {
+        "name": "NotoSansSC-VF.subset.woff2"
+      },
+      "status": "present",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/noto_sans_sc_bold.tres",
+        "assets/template/fonts/noto_sans_sc_medium.tres",
+        "assets/template/fonts/noto_sans_sc_regular.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/Rubik-VF.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/ui_bold.tres",
+        "assets/template/fonts/ui_medium.tres",
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:eabc5c398763d783a579b6b7265181214a441a135dfd45d94cf447856c3a370e",
+      "shipped": null,
+      "size": 46308,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/ui_bold.tres",
+        "assets/template/fonts/ui_medium.tres",
+        "assets/template/fonts/ui_regular.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    },
+    "assets/template/fonts/display/ZCOOLQingKeHuangYou-Regular.subset.woff2": {
+      "declaredUseEvidence": [],
+      "generator": {},
+      "inputs": [],
+      "license": {},
+      "origin": "unknown",
+      "referenceEvidence": [
+        "assets/template/fonts/display/pong_title.tres",
+        "assets/template/fonts/display/pong_title_tracked.tres"
+      ],
+      "regions": [],
+      "sha256": "sha256:7358992690863400c1097f04d705a806e180f333c0b625d9f377a6567cc003e4",
+      "shipped": null,
+      "size": 1620420,
+      "source": {},
+      "status": "awaiting-restoration",
+      "transformations": [],
+      "useEvidence": [
+        "assets/template/fonts/display/pong_title.tres",
+        "assets/template/fonts/display/pong_title_tracked.tres"
+      ],
+      "used": true,
+      "usedBy": []
+    }
+  },
+  "discoveries": {},
+  "downloads": {},
+  "procedures": {},
+  "summary": {
+    "ancestry": {
+      "ai": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      }
+    },
+    "derivatives": {
+      "retained": 0,
+      "shipped": null,
+      "used": 0
+    },
+    "exportedHostMedia": null,
+    "files": {
+      "downloaded": 0,
+      "retained": 4,
+      "shipped": null,
+      "used": 4
+    },
+    "origins": {
+      "ai": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "catalog": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "derivative": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "external": {
+        "retained": 1,
+        "shipped": null,
+        "used": 1
+      },
+      "procedural": {
+        "retained": 0,
+        "shipped": null,
+        "used": 0
+      },
+      "template": {
+        "retained": 1,
+        "shipped": null,
+        "used": 1
+      },
+      "unknown": {
+        "retained": 2,
+        "shipped": null,
+        "used": 2
+      }
+    },
+    "packs": {
+      "discovered": 0,
+      "downloaded": 0,
+      "shipped": null,
+      "used": 0
+    },
+    "proceduralSystems": {
+      "retained": 0,
+      "used": 0
+    },
+    "spriteRegions": {
+      "retained": 0,
+      "shipped": null,
+      "used": 0
+    }
+  },
+  "version": 1
+}
