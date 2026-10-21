@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'Using prebuilt Godot Web export'",
+  "outputDirectory": "site",
+  "framework": null,
+  "cleanUrls": false,
+  "trailingSlash": false
+}
