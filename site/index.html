@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="manus-game-loading-screen" content="1">
-  
+  <title>AI Living City</title>
   
   <style>
     :root { color-scheme: dark; }
@@ -32,17 +32,6 @@ Source SHA-256: 38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412
 /* manus-loader-cjk:end */
   </style>
 <style>#loading-notice { max-width: 360px; justify-self: center; line-height: 1.5; }</style>
-<!-- manus:game-sharing:start -->
-<title>AI Living City</title>
-<meta name="description" content="Persistent isometric social city simulation prototype with bounded AI routines, local economy and offline catch-up.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="AI Living City">
-<meta property="og:description" content="Persistent isometric social city simulation prototype with bounded AI routines, local economy and offline catch-up.">
-<meta property="og:url" content="https://livingcity-whghnr8n.manus.game/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AI Living City">
-<meta name="twitter:description" content="Persistent isometric social city simulation prototype with bounded AI routines, local economy and offline catch-up.">
-<!-- manus:game-sharing:end -->
 </head>
 <body>
   <canvas id="canvas" tabindex="0">Your browser does not support canvas.</canvas>
@@ -55,10 +44,9 @@ Source SHA-256: 38f4c5f927f746b3dfa4c3a5d7edf0b7a3e828e27438418fa54f9e1565289412
     <button id="loading-retry" type="button" hidden>RETRY</button>
     <noscript>JavaScript is required to play this game.</noscript>
   </section>
-  <script>(function(){var R={"index.wasm":"/manus-storage/game/sha256/fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0.wasm","index.pck":"/manus-storage/game/sha256/03436af36199e3cf82f6acf024c09f83088840cd8fd2308f57e487738153533f.pck"};var f=window.fetch.bind(window);window.fetch=function(i,o){var u=typeof i==="string"?i:(i&&i.url)||"";var b=u.split("?")[0].split("/").pop();return R[b]?f(R[b],o):f(i,o)};})();</script>
-<script>
+  <script>
     (() => {
-      const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":15359332,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+      const config = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":15418024,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
       const threads = false;
       const canvas = document.getElementById('canvas');
       const loading = document.getElementById('loading');
